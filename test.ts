@@ -3,9 +3,9 @@
 
 function test25IsEven():boolean
 {
-    let number = 24;
+    let num = 24;
     let expectedResult = true;
-    let result = EvenNumberChecker.CheckEven(25);
+    let result = EvenNumberChecker.CheckEven(num);
     if (result === expectedResult)
     {
         return true

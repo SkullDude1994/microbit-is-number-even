@@ -1,4 +1,7 @@
-//% color = #20bd93
+/**
+ * Custom blocks
+ */
+//% weight=1000 color=#20bd93
 namespace EvenNumberChecker{
 
 /**

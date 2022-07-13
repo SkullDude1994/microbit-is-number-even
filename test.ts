@@ -5,7 +5,7 @@ function test25IsEven():boolean
 {
     let num = 24;
     let expectedResult = true;
-    let result = EvenNumberChecker.CheckEven(num);
+    let result = evenNumberChecker.checkEven(num);
     if (result === expectedResult)
     {
         return true

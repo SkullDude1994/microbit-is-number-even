@@ -6,18 +6,9 @@
 ### ``CheckEven``
 
 ```blocks
-function test25IsEven():boolean
-{
-    let num = 24;
-    let expectedResult = true;
-    let result = EvenNumberChecker.CheckEven(num);
-    if (result === expectedResult)
-    {
-        return true
-    }
-    return false;
+if (evenNumberChecker.checkEven(24)) {
+    basic.showIcon(IconNames.Heart)
 }
-test25IsEven() ? led.plot(0,0) : led.unplot(0,0);
 ```
 
 

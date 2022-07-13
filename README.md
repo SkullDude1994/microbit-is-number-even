@@ -3,10 +3,10 @@
 
 ## Usage
 
-### ``CheckEven``
+### ``checkEven``
 
 ```blocks
-if (evenNumberChecker.checkEven(24)) {
+if (checkEven(24)) {
     basic.showIcon(IconNames.Heart)
 }
 ```

@@ -1,15 +1,14 @@
 /**
  * Custom blocks
  */
-//% weight=1000 color=#20bd93
-namespace EvenNumberChecker{
+//% weight=10 color=#20bd93
+namespace evenNumberChecker{
 
     /**
      *  Checks if a number is even
      */
-
     //% blockID = CheckIfANumberIsEven
-    //% block = "Check if number is even"
+    //% block = "checkeven"
     export function CheckEven(num:number):boolean
     {
         let result = false;

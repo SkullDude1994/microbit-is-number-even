@@ -1,6 +1,26 @@
 
 > Open this page at [https://skulldude1994.github.io/microbit-is-number-even/](https://skulldude1994.github.io/microbit-is-number-even/)
 
+## Usage
+
+### ``CheckEven``
+
+```blocks
+function test25IsEven():boolean
+{
+    let num = 24;
+    let expectedResult = true;
+    let result = EvenNumberChecker.CheckEven(num);
+    if (result === expectedResult)
+    {
+        return true
+    }
+    return false;
+}
+test25IsEven() ? led.plot(0,0) : led.unplot(0,0);
+```
+
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.

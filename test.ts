@@ -3,7 +3,7 @@
 
 function test25IsEven():boolean
 {
-    let number = 25;
+    let number = 24;
     let expectedResult = true;
     let result = EvenNumberChecker.CheckEven(25);
     if (result === expectedResult)

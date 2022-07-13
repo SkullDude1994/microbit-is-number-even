@@ -1,4 +1,4 @@
-// color = #20bd93
+//% color = #20bd93
 namespace EvenNumberChecker{
 
 /**
